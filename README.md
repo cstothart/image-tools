@@ -1,29 +1,17 @@
-python-tools
+image-tools
 =============
 
-A collection of Python tools.
+A collection of simple image manipulation tools programmed in Python.
 
-#ImageTools.py#
+# Automatic Image Cropping#
 
-A collection of simple image manipulation tools.
-
-### Tools ###
-
-* Automatic Image Cropping -- Automatically crops all of the images in a given folder.
+Automatically crops all of the images in a given folder.
 
 Original             |  Cropped
 :-------------------------:|:-------------------------:
-![alt text](https://raw.githubusercontent.com/cstothart/python-tools/master/C04.bmp "Original Image")  |  ![alt text](https://raw.githubusercontent.com/cstothart/python-tools/master/C04_cropped.bmp "Cropped Image")
-
-* Image Resizing -- Proportionally resizes all of the images in a given folder.
-
-Original             |  Resized
-:-------------------------:|:-------------------------:
-![alt text](https://raw.githubusercontent.com/cstothart/python-tools/master/C04.bmp "Original Image")  |  ![alt text](https://raw.githubusercontent.com/cstothart/python-tools/master/C04_resized.bmp "Resized Image")
+![alt text](https://raw.githubusercontent.com/cstothart/image-tools/master/C04.bmp "Original Image")  |  ![alt text](https://raw.githubusercontent.com/cstothart/image-tools/master/C04_cropped.bmp "Cropped Image")
 
 ### Usage Examples (Windows) ###
-
-###### Automatic Cropping ######
 
 Crop all of the images in folder_with_images and place the cropped images in the same folder.
 ```
@@ -35,14 +23,22 @@ Crop all of the images in folder_with_images and place the cropped images in fol
 python ImageTools.py c folder_with_images --outDir folder_for_modified_images
 ```
 
-###### Proportional Resizing ######
+#Image Resizing# 
 
-Make all of the images in folder_with_images 300x300 pixels and place the resized images in the same folder.
+Proportionally resizes all of the images in a given folder.
+
+Original             |  Resized
+:-------------------------:|:-------------------------:
+![alt text](https://raw.githubusercontent.com/cstothart/image-tools/master/C04.bmp "Original Image")  |  ![alt text](https://raw.githubusercontent.com/cstothart/image-tools/master/C04_resized.bmp "Resized Image")
+
+### Usage Examples (Windows) ###
+
+Make all of the images in folder_with_images have a width of 300 pixels and place the resized images in the same folder.
 ```
 python ImageTools.py s folder_with_images --newWidth 300
 ```
 
-Make all of the images in folder_with_images 300x300 pixels and place the resized images in folder_for_modified_images.
+Make all of the images in folder_with_images have a width of 300 pixels and place the resized images in folder_for_modified_images.
 ```
 python ImageTools.py s folder_with_images --outDir folder_for_modified_images --newWidth 300
 ```
