@@ -10,12 +10,16 @@ A collection of Python tools.
 A collection of simple image manipulation tools:
 
 * Automatic Image Cropping -- Automatically crops all of the images in a given folder.
+```
 ![alt text](https://raw.githubusercontent.com/cstothart/python-tools/master/C04.bmp "Original Image")
 ![alt text](https://raw.githubusercontent.com/cstothart/python-tools/master/C04_cropped.bmp "Cropped Image")
+```
 
 * Image Resizing -- Proportionally resizes all of the images in a given folder.
+```
 ![alt text](https://raw.githubusercontent.com/cstothart/python-tools/master/C04.bmp "Original Image")
 ![alt text](https://raw.githubusercontent.com/cstothart/python-tools/master/C04_resized.bmp "Resized Image")
+```
 
 ### Usage Examples (Windows) ###
 
