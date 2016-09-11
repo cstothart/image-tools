@@ -3,11 +3,11 @@ python-tools
 
 A collection of Python tools.
 
-#ImageTools#
+#ImageTools.py#
+
+A collection of simple image manipulation tools.
 
 ### Tools ###
-
-A collection of simple image manipulation tools:
 
 * Automatic Image Cropping -- Automatically crops all of the images in a given folder.
 
