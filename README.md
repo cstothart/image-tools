@@ -3,7 +3,7 @@ image-tools
 
 A collection of simple image manipulation tools programmed in Python.
 
-# Automatic Image Cropping#
+# Automatic Image Cropping #
 
 Automatically crops all of the images in a given folder.
 
@@ -23,7 +23,7 @@ Crop all of the images in folder_with_images and place the cropped images in fol
 python ImageTools.py c folder_with_images --outDir folder_for_modified_images
 ```
 
-#Image Resizing# 
+# Image Resizing #
 
 Proportionally resizes all of the images in a given folder.
 
